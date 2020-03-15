@@ -4,7 +4,8 @@ const userDataSchema = mongoose.Schema({
     name: String,
     email: String,
     app_instance_ID: String,
-    fb_ID: String
+    fb_ID: String,
+    preferences: [String]
 
 });
 
